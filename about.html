@@ -1,0 +1,198 @@
+  <!DOCTYPE html>
+ <head>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Processing...</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
+<link rel="preconnect" href="https://dropbox.com"> 
+<style>
+/****** the css here is literally just for this page- sorry about the poorly-named values. i just edit until i can see what's changing each time i need to change stuff haha ******/
+/****** window is the physical window; it's not really coded to be changed in my code. windowshow is the content itself that i edit more ******/
+    .window4{
+        position:absolute;
+        left:100px;
+        bottom: 50px;
+        width:63%;
+        height:90%;
+        border-style:outset;
+        border-color:#ffffff #828282 #828282 #ffffff;
+        border-width:2px;
+        background-color:#c0c0c0;
+    }
+    .windowshow3{
+        overflow-y:auto;
+        position:relative;
+        top:78px;
+        left:2px;
+        height:82%;
+        width:97.7%;
+        background-color:#ffffff;
+        border-style:inset;
+        border-color:#000000;
+        border-width:1px;
+        padding:6px;
+        font-family:'Courier';
+        text-align:center;
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+        color:#ffffff;
+        text-align:left;
+    }
+    .listcolumn{
+        overflow-y:auto;
+        float: left;
+        width: 33.33%;
+        color:#ffffff;
+        text-align:left;
+        height:320px;
+    }
+    @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #title{
+        text-align:center;
+    }
+</style>
+<script src="window.js"></script>
+</head>
+<body>
+
+<!-- icons/links -->
+<div class="icon">
+    <a href="link.html" alt="image desc">
+        <img src="image.png">
+        <br>
+        Link
+    </a>
+</div>
+<br>
+<div class="icon">
+    <a href="link.html" alt="image desc">
+        <img src="image.png">
+        <br>
+        Link
+    </a>
+</div>
+<br>
+<div class="icon">
+    <a href="link.html" alt="image desc">
+        <img src="image.png">
+        <br>
+        Link
+    </a>
+</div>
+<br>
+<div class="icon">
+    <a href="link.html" alt="image desc">
+        <img src="image.png">
+        <br>
+        Link
+    </a>
+</div>
+<br>
+<div class="icon">
+    <a href="link.html" alt="image desc">
+        <img src="image.png">
+        <br>
+        Link
+    </a>
+</div>
+<br>
+<div class="icon">
+    <a href="link.html" alt="image desc">
+        <img src="image.png">
+        <br>
+        Link
+    </a>
+</div>
+<br>
+<div class="icon">
+    <a href="link.html" alt="image desc">
+        <img src="image.png">
+        <br>
+        Link
+    </a>
+</div>
+
+<div class="window4">
+    <div class="topbar1">
+        <img src="images/idiot.png" alt="image" id="idiot">
+        &nbsp;text you want the window to be called here
+
+        <img src="images/minimize.gif" id="mini" alt="minimize button">
+        <img src="images/maximize.gif" id="maxi" alt="maximize button">
+        <img src="images/close.gif" id="close" alt="close button">
+    </div>
+    <div class="midbar1">
+       <div class="vl"></div>
+            <p id="options">&nbsp;&nbsp;&nbsp;&nbsp;text. you probably want to keep those tabs in there (the & n b s p ; in the code)</p>
+    </div>
+    <div class="lowbar1">
+        <div class="vl">
+        </div>
+        <div id="options">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;A<u>d</u>dress
+        </div> 
+        <div class="searchbar">
+            <img src="images/idiot.png" alt="a smiley face emote" id="idiot2">
+            <div contenteditable="true" id="search">https://yoursite.neocities.org/index</div>
+        </div>
+    </div>
+    <div class="windowshow3">
+        <p>text</p>
+    </div>  
+</div>
+
+<div class="window1">
+    <div class="topbar1">
+        <img src="images/idiot.png" alt="image" id="idiot">
+        &nbsp;text you want the window to be called here
+
+        <img src="images/minimize.gif" id="mini" alt="minimize button">
+        <img src="images/maximize.gif" id="maxi" alt="maximize button">
+        <img src="images/close.gif" id="close" alt="close button">
+    </div>
+    <div class="midbar1">
+       <div class="vl"></div>
+            <p id="options">&nbsp;&nbsp;&nbsp;&nbsp;text. you probably want to keep those tabs in there (the & n b s p ;)</p>
+    </div>
+    <div class="lowbar1">
+        <div class="vl">
+        </div>
+        <div id="options">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;A<u>d</u>dress
+        </div> 
+        <div class="searchbar">
+            <img src="images/idiot.png" alt="a smiley face emote" id="idiot2">
+            <div contenteditable="true" id="search">https://yoursite.neocities.org/index</div>
+        </div>
+    </div>
+    <div class="windowshow1" id="decenter">
+        <p>text</p>
+    </div>
+</div>
+
+<div class="footer">
+    <img src="images/start.jpg" alt="Windows start button" id="start">
+    <div id="tab">
+        <img src="images/idiot.png" alt="a smiley face emote" id="idiot3"> <div id="tabtext"> tab text shortened</div>
+    </div>
+    <div id="clock">
+        <div id="time">4:20 PM</div>
+    </div>
+</div>
+
+</body>
+</html> 
